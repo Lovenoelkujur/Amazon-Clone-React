@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f3d1186.css",
+    "main.js": "/static/js/main.d89c14c9.js",
+    "static/media/bannerImgTwo.jpg": "/static/media/bannerImgTwo.bc1bdb910ead16c65197.jpg",
+    "static/media/bannerImgFour.jpg": "/static/media/bannerImgFour.8f7fc6b56e74dba2b6f9.jpg",
+    "static/media/bannerImgOne.jpg": "/static/media/bannerImgOne.efb3d39101f7ef77d616.jpg",
+    "static/media/bannerImgThree.jpg": "/static/media/bannerImgThree.c80809bb40bee5c34372.jpg",
+    "static/media/bannerImgFive.jpg": "/static/media/bannerImgFive.aa945e25375bfdee385f.jpg",
+    "static/media/Indian_Flag.png": "/static/media/Indian_Flag.650f4ce72ca5523c5a5d.png",
+    "static/media/logo.png": "/static/media/logo.1c9be0b254d3ff1dc9e9.png",
+    "static/media/emptyCart.png": "/static/media/emptyCart.230e4848b62fb3cab325.png",
+    "index.html": "/index.html",
+    "main.3f3d1186.css.map": "/static/css/main.3f3d1186.css.map",
+    "main.d89c14c9.js.map": "/static/js/main.d89c14c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f3d1186.css",
+    "static/js/main.d89c14c9.js"
+  ]
+}

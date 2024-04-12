@@ -1,70 +1,110 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Amazon Clone
 
-## Available Scripts
+### Overview
+This project is a frontend replica of the popular e-commerce platform Amazon, built using React.js. The goal of this project is to demonstrate my proficiency in React.js development, including component-based architecture, state management, and integration with external APIs.
 
-In the project directory, you can run:
+### Features
+* Product listings with images, titles, prices, and ratings.
+* Search functionality to filter products based on keywords.
+* User authentication and authorization.
+* Cart management, allowing users to add/remove items.
+* Responsive design for optimal viewing on various devices.
 
-### `npm start`
+### Technologies Used
+* __React.js:__ Frontend library for building user interfaces.
+* __React Router:__ For routing and navigation within the application.
+* __Firebase:__ Backend services for authentication and database management.
+* __Stripe API:__ Secure payment processing for transactions.
+* __HTML & CSS:__ Markup and styling for the application's UI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Acknowledgements
+* The project was inspired by Amazon's UI and functionality.
+* Special thanks to the React.js community for their valuable resources and tutorials.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## ScreenShort
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. __Home Page__
 
-### `npm run build`
+![Home Page](./public/screenshort/Home-page.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Home page Navbar contain:-
+>* Material-Icon
+>* Amazon Logo
+>* Search Bar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. __Side Bar__
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Side Bar](./public/screenshort/Side-Bar.png)
 
-### `npm run eject`
+* Side Bar contains:-
+>* User Name
+>* Products Category 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. __Footer Section__
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Footer Section](./public/screenshort/Footer-Section.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Footer contains:-
+>* Details
+>* Category
+>* Help
+>* Recources
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. __Products Section__
 
-## Learn More
+![Products Section](./public/screenshort/Product-cart-Section.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Product Section contains:-
+>* All the Products Cart
+>* Products Image
+>* Products Type
+>* Products Title
+>* Products Description
+>* Products Price
+>* Add to Cart Button
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. __Cart Page__
 
-### Code Splitting
+![Cart Page](./public/screenshort/Cart.png)
+* Cart Section contains:-
+>* All the Products Added to Cart
+>* Product Info
+>* Quantity of items 
+>* increase Quantity
+>* Decrease Quantity
+>* Products Price
+>* Delete Button
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. __Empty Cart Section__
 
-### Analyzing the Bundle Size
+![Empty Cart Section](./public/screenshort/Empty-Cart.png)
+* Empty Cart Section:-
+>* No Production Shown
+>* Contine Shopping Button will redirect to Home Page.
+>* Sign in Button to redirect to sign in page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+7. __Signin Page__
 
-### Making a Progressive Web App
+![Signin Page](./public/screenshort/Sign-in.png)
+* Sign in Page
+>* React-Redux
+>* Verify User Email & Password
+>* Button to Create New User
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+8. __Signup Page__
 
-### Advanced Configuration
+![Signup Page](./public/screenshort/Sign-up.png)
+> Sign up Page
+>* Registration of a New User with Name, Email & Password
+>* Existing Email id will give error
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+9. __Firebase__
 
-### Deployment
+![Empty Cart Section](./public/screenshort/FireBase.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Firebase Section
+>* Create a New User
+>* Delete User
+>* Store User Data
