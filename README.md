@@ -22,6 +22,9 @@ This project is a frontend replica of the popular e-commerce platform Amazon, bu
 * The project was inspired by Amazon's UI and functionality.
 * Special thanks to the React.js community for their valuable resources and tutorials.
 
+### Hosted Link
+https://amazon-clone-react-three-blush.vercel.app/
+
 
 ## ScreenShort
 
